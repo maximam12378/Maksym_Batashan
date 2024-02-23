@@ -1,0 +1,18 @@
+p {
+  text-align: justify;/*left right center*/
+  margin-right: 30px;
+  margin-left: 20px;
+  font-family: sans-serif;/*выберите свой шрифт*/
+  font-size: 15px;
+  line-height: 20px;/* расстояние между строками*/
+  color: white;
+}
+label.pop {
+  text-align: justify;/*left right center*/
+  margin-right: 30px;
+  margin-left: 20px;
+  font-family: sans-serif;/*выберите свой шрифт*/
+  font-size: 15px;
+  line-height: 20px;/* расстояние между строками*/
+  color: white;
+}

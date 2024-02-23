@@ -1,0 +1,153 @@
+div {
+  image: url(https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/pages/gx/main/gx__vid-cover--gx@2x.55059b0a2f78.jpg);
+  size: cover;
+  } 
+#container {
+  width: auto;
+  background: #d4e9ec;
+  
+  border: 1px solid silver;
+ display: flex;
+ flex-direction: column; /*row column*/
+ /*justify-content: space-around;*/
+ align-items: stretch;
+}
+
+
+#header {
+  background: rgb(0, 0, 0);
+  border: 1px solid silver;
+  margin: 0px;
+  padding: 5px;
+  flex:2;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  }
+  #navigation {
+  /* background: rgb(246, 249, 250);
+  border: 1px solid silver; */
+  margin: 3px;
+  padding: 5px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  }
+  .content {
+  background:  rgb(23, 0, 151);
+  border: 1px solid silver;
+  margin: 3px;
+  padding: 5px;
+  flex:5;
+  display: flex;
+  flex-direction: row; /* row-reverse; можно поменять местами блоки*/
+  }
+  #footer {
+  background:#30A6E6;
+  border: 1px solid silver;
+  margin: 3px;
+  padding: 5px;
+  flex:2;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  }
+
+
+  .leftpanel {
+ /* background: rgb(177, 181, 182);*/
+  border: 1px solid silver;
+  margin: 3px;
+  padding: 5px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  }
+  .rightpanel {
+  /*background: rgb(177, 181, 182);*/
+  border: 1px solid silver;
+  margin: 3px;
+  padding: 5px;
+  flex: 2;
+  background-color: #000000;
+  flex-direction: column;
+   }
+  
+  #head_item {
+  margin: 3px;
+  padding: 5px;
+  }
+
+  /*   меню  ----------------*/
+#menu{
+  margin-left: 35%;
+}
+ul, li {
+margin: 0;
+padding: 0;
+}
+ul {
+list-style: none;
+width: 100%;
+}
+li {
+float: left;
+width: auto;
+}
+a {
+background: #30A6E6;
+color: #FFFFFF;
+/*display: block; */
+font: bold 13px sans-serif;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+}
+li:hover a {
+background: #000000;
+}
+
+
+/* Настройки для текста*/
+#text {
+  text-align: justify;/*left right center*/
+  margin-right: 30px;
+  margin-left: 20px;
+  font-family: sans-serif;/*выберите свой шрифт*/
+  font-size: 15px;
+  line-height: 20px;/* расстояние между строками*/
+  color: white;
+}
+p {
+  text-align: justify;/*left right center*/
+  margin-right: 30px;
+  margin-left: 20px;
+  font-family: sans-serif;/*выберите свой шрифт*/
+  font-size: 15px;
+  line-height: 20px;/* расстояние между строками*/
+  color: white;
+}
+p.rer {
+  color: rgb(255, 255, 255);
+}
+body {
+  background: #000000
+}
+img {
+  width: 473px;
+  margin: 5px;
+  border-radius: 12px;
+  
+}
+H1 {
+  color: rgb(207, 66, 0);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+H2 {
+  color: rgb(238, 0, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
